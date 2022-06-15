@@ -9,6 +9,9 @@ body{
     font-family: 'Roboto',sans-serif;
     margin: 0;
 }
+.color__span{
+    color: blueviolet;
+}
 /*
 *********** BOTONES ***********
 */
@@ -83,17 +86,23 @@ button:hover {
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5))
-    ,url(../imagenes/backend.jpg);
+    ,url(../imagenes/mobile.jpg);
 }
 .card:nth-child(5){
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5))
-    ,url(../imagenes/backend.jpg);
+    ,url(../imagenes/game.jpg);
 }
 .card:nth-child(6){
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5))
-    ,url(../imagenes/backend.jpg);
+    ,url(../imagenes/programming-languages.jpg);
+}
+.card:nth-child(7){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/algoritmos.jpg);
 }
