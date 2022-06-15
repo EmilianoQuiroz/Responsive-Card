@@ -8,6 +8,8 @@ p{ font-size: 1.25em;}
 body{
     font-family: 'Roboto',sans-serif;
     margin: 0;
+    background-color: rgb(30,30,30);
+
 }
 .color__span{
     color: blueviolet;
@@ -26,7 +28,7 @@ button{
     background-color: blueviolet;
 }
 
-button:hover {
+.card button:hover {
     background-color: rgb(101,33,165,);
 }
 /*
