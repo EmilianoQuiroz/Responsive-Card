@@ -53,7 +53,9 @@ button{
     margin-top: 0;
     font-size: 3.2em;
 }
-.card h3 {
+.card h3,
+.card__introduccion h3,
+.card__frontend h3 {
     margin-bottom: 30px;
 }
 
@@ -62,7 +64,9 @@ button{
 }
 
 
-#nuestros-roadmap .card{
+#nuestros-roadmap .card,
+.card__introduccion,
+.card__frontend {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -116,53 +120,73 @@ button{
     ,url(../imagenes/algoritmos.jpg);
 }
 
-/*Carrusel*/
+/*
+    CARDS DE INTRODUCCION A LA PROGRAMACION
+*/
 
-.container-carrusel{
-  width: 90%;
+.card__introduccion:nth-child(1){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/fundamentos.jpg);
+}
 
-  padding: 10px 40px;
+.card__introduccion:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/logica.jpg);
 }
-.container-carrusel .swiper-container{
-  width: 100%;
-  height: 100%;
+.card__introduccion:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.container-carrusel .swiper-slide {
-  position: relative;
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  border-radius: 15px;
-  text-align: start;
-  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
- 
-}
-.container-carrusel .swiper-slide img{
-   display: block;
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+/*
+    CARDS FRONTEND
+*/
 
+.card__frontend:nth-child(1){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.container-carrusel .swiper-slide .card-description{
-    padding:1rem 1rem;
+.card__frontend:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.container-carrusel .swiper-slide .card-title,.container-carrusel .swiper-slide .card-text{
-   margin-bottom: .5rem;
+.card__frontend:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.container-carrusel .swiper-slide .card-link{
-   text-align: center;
-  
+.card__frontend:nth-child(4){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.container-carrusel .swiper-slide .card-link a{
-    text-decoration: none;
-    color: #1d6ce2;
+.card__frontend:nth-child(5){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.swiper-button-next{
-    right: 26px !important;
+
+.card__frontend:nth-child(6){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
-.swiper-button-prev{
-    left: 26px !important;
+.card__frontend:nth-child(7){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
 }
