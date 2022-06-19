@@ -32,8 +32,8 @@ button{
     background-color: blueviolet;
 }
 
-.card button:hover {
-    background-color: rgb(101,33,165,);
+.card  button:hover {
+    color: rgb(101,33,165,);
 }
 /*
 *****CARDS ******
@@ -55,7 +55,10 @@ button{
 }
 .card h3,
 .card__introduccion h3,
-.card__frontend h3 {
+.card__frontend h3,
+.card__backend h3,
+.card__mobile h3
+.card__game h3 {
     margin-bottom: 30px;
 }
 
@@ -66,7 +69,10 @@ button{
 
 #nuestros-roadmap .card,
 .card__introduccion,
-.card__frontend {
+.card__frontend,
+.card__backend,
+.card__mobile,
+.card__game {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -185,6 +191,119 @@ button{
     ,url(../imagenes/introduccion-logica.jpg);
 }
 .card__frontend:nth-child(7){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+
+/*
+    CARDS BACKEND
+*/
+
+.card__backend:nth-child(1){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__backend:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__backend:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__backend:nth-child(4){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__backend:nth-child(5){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+
+.card__backend:nth-child(6){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+
+/*
+    CARDS MOBILE
+*/
+
+.card__mobile:nth-child(1){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__mobile:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__mobile:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__mobile:nth-child(4){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__mobile:nth-child(5){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+
+
+/*
+    CARDS GAMMING
+*/
+
+.card__game:nth-child(1){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__game:nth-child(2){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg)
+}
+.card__game:nth-child(3){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__game:nth-child(4){
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5))
+    ,url(../imagenes/introduccion-logica.jpg);
+}
+.card__game:nth-child(5){
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5))
